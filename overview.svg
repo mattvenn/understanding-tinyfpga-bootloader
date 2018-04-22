@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 (unknown)"
-   sodipodi:docname="overview.svg">
+   sodipodi:docname="overview.svg"
+   inkscape:export-filename="/home/mattvenn/work/fpga/TinyFPGA-Bootloader/understanding-tinyfpga-bootloader/overview.png"
+   inkscape:export-xdpi="51.68"
+   inkscape:export-ydpi="51.68">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.17978516"
-     inkscape:cx="1393.8981"
-     inkscape:cy="1577.017"
+     inkscape:zoom="0.50850922"
+     inkscape:cx="1053.6681"
+     inkscape:cy="2886.5887"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -58,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,19 +72,19 @@
      transform="translate(249.39349,389.18821)"
      style="display:inline">
     <rect
-       style="display:inline;opacity:1;fill:#ffd42a;fill-opacity:0.95999995;stroke:#000000;stroke-width:0.51537842;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#ffd42a;fill-opacity:0.95999995;stroke:#000000;stroke-width:0.54520261;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9926"
-       width="141.73759"
-       height="635.88293"
-       x="393.71951"
-       y="-41.407059" />
+       width="158.62015"
+       height="635.86847"
+       x="385.15469"
+       y="-41.399826" />
     <rect
-       style="display:inline;opacity:1;fill:#ffaaaa;fill-opacity:0.95999995;stroke:#000000;stroke-width:0.51543462;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#ffaaaa;fill-opacity:0.95999995;stroke:#000000;stroke-width:0.56610131;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9924"
-       width="130.90707"
-       height="633.58032"
-       x="239.7095"
-       y="-40.187153" />
+       width="157.91133"
+       height="633.56714"
+       x="219.98302"
+       y="-40.180561" />
     <g
        transform="matrix(0.35277778,0,0,0.35277778,114.96146,-211.44979)"
        class="graph"
@@ -7114,7 +7117,7 @@
          x="522.32166"
          y="334.45801"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
-         id="tspan1532">- uses nzri coding to get data</tspan><tspan
+         id="tspan1532">- uses NRZI coding to get data</tspan><tspan
          sodipodi:role="line"
          x="522.32166"
          y="341.51355"
@@ -7176,7 +7179,7 @@
          x="676.37823"
          y="352.19781"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444399px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.26458332px"
-         id="tspan1558">- outputs dp and dn</tspan><tspan
+         id="tspan1558">- outputs dp and dn, enables tx output with oe</tspan><tspan
          sodipodi:role="line"
          x="676.37823"
          y="359.25336"
@@ -7227,6 +7230,11 @@
          x="32.023182"
          y="65.092354"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
+         id="tspan1684">NRZI: Non Return Zero Inverted (encoding)</tspan><tspan
+         sodipodi:role="line"
+         x="32.023182"
+         y="72.147903"
+         style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
          id="tspan1542-5"> </tspan></text>
     <text
        xml:space="preserve"
@@ -7264,7 +7272,7 @@
          x="201.21478"
          y="44.717361"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444399px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332px"
-         id="tspan1587-6">control transfer state machine(462 lines)</tspan><tspan
+         id="tspan1587-6">endpoint zero: usb device configuration (462 lines)</tspan><tspan
          sodipodi:role="line"
          x="201.21478"
          y="51.772915"
@@ -7282,22 +7290,22 @@
          id="tspan1627-5">- sets up endpoints: ACM, TX, RX</tspan><tspan
          sodipodi:role="line"
          x="201.21478"
-         y="72.939583"
+         y="71.164375"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
-         id="tspan1629-3">- handshakes</tspan><tspan
+         id="tspan1629-3" /><tspan
          sodipodi:role="line"
          x="201.21478"
-         y="79.99514"
+         y="72.939583"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
          id="tspan1631-5">- device descriptors</tspan><tspan
          sodipodi:role="line"
          x="201.21478"
-         y="87.05069"
+         y="79.99514"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
          id="tspan1544-7-6"> </tspan><tspan
          sodipodi:role="line"
          x="201.21478"
-         y="94.106247"
+         y="87.05069"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
          id="tspan1542-5-2"> </tspan></text>
     <text
@@ -7369,33 +7377,28 @@
          id="tspan5879"
          x="371.37335"
          y="298.77783"
-         style="font-size:7.05555487px;line-height:1.25">All of these modules are parameterised for number of endpoints supported</tspan></text>
+         style="font-size:7.05555487px;line-height:1.25">All of these modules are parameterised for number of endpoints supported (2 out and 3 in)</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="214.75803"
-       y="312.66769"
+       x="192.90494"
+       y="313.18802"
        id="text1528-9-9"><tspan
          sodipodi:role="line"
          id="tspan1526-1-2"
-         x="214.75803"
-         y="312.66769"
+         x="192.90494"
+         y="313.18802"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444399px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332px">Protocol Engine (232 lines)</tspan><tspan
          sodipodi:role="line"
-         x="214.75803"
-         y="319.72324"
+         x="192.90494"
+         y="320.24356"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
-         id="tspan1544-3-2">- instantiates all the modules on the right</tspan><tspan
+         id="tspan1544-3-2">- instantiates and connects all the modules on the right</tspan><tspan
          sodipodi:role="line"
-         x="214.75803"
-         y="326.77881"
+         x="192.90494"
+         y="325.52393"
          style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
-         id="tspan5791-8">- </tspan><tspan
-         sodipodi:role="line"
-         x="214.75803"
-         y="333.83435"
-         style="font-size:5.64444399px;line-height:1.25;stroke-width:0.26458332px"
-         id="tspan1542-6-9"> </tspan></text>
+         id="tspan1542-6-9" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -7589,7 +7592,7 @@
          id="tspan6072"
          x="182.33626"
          y="265.99744"
-         style="font-size:7.05555487px;line-height:1.25">ctrl_out &amp; ctrl_in</tspan></text>
+         style="font-size:7.05555487px;line-height:1.25">ctrl_out &amp; ctrl_in endpoints</tspan></text>
     <path
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ed00a6;stroke-width:1.48199999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m 659.69753,256.15495 v 19.68499 H 334.895 v 63.97625 h -54.13374"
@@ -7605,7 +7608,7 @@
          id="tspan6072-8"
          x="360.86676"
          y="267.5672"
-         style="font-size:7.05555487px;line-height:1.25">serial_out &amp; serial_in</tspan></text>
+         style="font-size:7.05555487px;line-height:1.25">serial_out &amp; serial_in endpoints</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -7616,7 +7619,7 @@
          id="tspan6112"
          x="22.199961"
          y="-22.80418"
-         style="font-size:22.57777596px;line-height:1.25">Understanding the TinyFPGA USB serial bootloader - work in progress!</tspan></text>
+         style="font-size:22.57777596px;line-height:1.25">Understanding the TinyFPGA USB serial bootloader</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -7768,17 +7771,6 @@
        height="174.30444"
        x="24.735378"
        y="268.79205" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="76.766556"
-       y="101.77197"
-       id="text1711"><tspan
-         sodipodi:role="line"
-         id="tspan1709"
-         x="76.766556"
-         y="101.77197"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111126px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332px">top</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
