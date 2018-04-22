@@ -109,9 +109,9 @@ state machines.
 The SPI state machine manages reading and writing to FLASH.
 
 The command sequencer state machine receives commands and data from the
-serial_out endpoint. It can start a transfer to FLASH or boot the FPGA. 
-
-SPI MISO from FLASH is put straight into the serial_in endpoint.
+serial_out endpoint. There are only 2 commands: boot the FPGA or make a FLASH
+transfer. Serial data is written directly to the SPI bus and so control of the
+FLASH chip must be done by the application program running on the host.
 
 # Resources
 
